@@ -16,5 +16,11 @@
     "lab_directory": "/home/labex/project",
     "skill": "System Rescue And Initialization",
     "description": "Filesystem cleanup"
+  },
+  {
+    "date": "2026-02-26 12:59:02",
+    "lab_directory": "/home/labex/project",
+    "skill": "System Rescue And Initialization",
+    "description": "add export env variable and alias to /.zshrc config file"
   }
 ]

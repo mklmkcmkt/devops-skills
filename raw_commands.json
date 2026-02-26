@@ -103,5 +103,125 @@
     "time": "2026-02-26 11:30:58",
     "directory": "/home/labex/project",
     "command": "open ~/devops-skills/raw_commands.json"
+  },
+  {
+    "time": "2026-02-26 12:38:40",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-02-26 12:38:56",
+    "directory": "/home/labex/project",
+    "command": "open ~/.zshrc "
+  },
+  {
+    "time": "2026-02-26 12:39:06",
+    "directory": "/home/labex/project",
+    "command": "nann ~/.zshrc "
+  },
+  {
+    "time": "2026-02-26 12:42:10",
+    "directory": "/home/labex/project",
+    "command": "nano ~/.zshrc "
+  },
+  {
+    "time": "2026-02-26 12:44:27",
+    "directory": "/home/labex/project",
+    "command": "source ~/.zshrc"
+  },
+  {
+    "time": "2026-02-26 12:44:56",
+    "directory": "/home/labex/project",
+    "command": "nano ~/.zshrc "
+  },
+  {
+    "time": "2026-02-26 12:45:21",
+    "directory": "/home/labex/project",
+    "command": "source ~/.zshrc"
+  },
+  {
+    "time": "2026-02-26 12:46:40",
+    "directory": "/home/labex/project",
+    "command": "source ~/.zshrc"
+  },
+  {
+    "time": "2026-02-26 12:49:53",
+    "directory": "/home/labex/project",
+    "command": "source ~/.zshrc"
+  },
+  {
+    "time": "2026-02-26 12:49:58",
+    "directory": "/home/labex/project",
+    "command": "source ~/.zshrc"
+  },
+  {
+    "time": "2026-02-26 12:50:32",
+    "directory": "/home/labex/project",
+    "command": "nano ~/.zshrc "
+  },
+  {
+    "time": "2026-02-26 12:50:46",
+    "directory": "/home/labex/project",
+    "command": "source ~/.zshrc"
+  },
+  {
+    "time": "2026-02-26 12:51:28",
+    "directory": "/home/labex/project",
+    "command": "source ~/.zshrc"
+  },
+  {
+    "time": "2026-02-26 12:52:23",
+    "directory": "/home/labex/project",
+    "command": "nano ~/.zshrc "
+  },
+  {
+    "time": "2026-02-26 12:52:32",
+    "directory": "/home/labex/project",
+    "command": "source ~/.zshrc"
+  },
+  {
+    "time": "2026-02-26 12:53:58",
+    "directory": "/home/labex/project",
+    "command": "source ~/.zshrc"
+  },
+  {
+    "time": "2026-02-26 12:54:16",
+    "directory": "/home/labex/project",
+    "command": "/deploy.sh"
+  },
+  {
+    "time": "2026-02-26 12:55:19",
+    "directory": "/home/labex/project",
+    "command": "./deploy.sh"
+  },
+  {
+    "time": "2026-02-26 12:59:02",
+    "directory": "/home/labex/project",
+    "command": "bash ./deploy.sh"
+  },
+  {
+    "time": "2026-02-26 12:59:22",
+    "directory": "/home/labex/project",
+    "command": "rec \"System Rescue And Initialization\" \"add export env variable and alias to /.zshrc config file\" "
+  },
+  {
+    "time": "2026-02-26 12:59:50",
+    "directory": "/home/labex/project",
+    "command": "sync-skills"
+  },
+  {
+    "time": "2026-02-26 13:00:02",
+    "directory": "/home/labex/project",
+    "command": "git config --global user.email \"mklmkcmkt@outlook.com\"\n  git config --global user.name \"Lee\""
+  },
+  {
+    "time": "2026-02-26 13:00:08",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
+  },
+  {
+    "time": "2026-02-26 13:00:57",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
   }
 ]
