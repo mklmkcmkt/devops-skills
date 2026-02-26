@@ -223,5 +223,185 @@
     "time": "2026-02-26 13:00:57",
     "directory": "/home/labex/project",
     "command": "gh auth login"
+  },
+  {
+    "time": "2026-02-26 13:12:19",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-02-26 13:12:41",
+    "directory": "/home/labex/project",
+    "command": "history clear"
+  },
+  {
+    "time": "2026-02-26 13:12:48",
+    "directory": "/home/labex/project",
+    "command": "bash history clear"
+  },
+  {
+    "time": "2026-02-26 13:12:53",
+    "directory": "/home/labex/project",
+    "command": "history clear"
+  },
+  {
+    "time": "2026-02-26 13:15:35",
+    "directory": "/home/labex/project",
+    "command": "history clear"
+  },
+  {
+    "time": "2026-02-26 13:15:52",
+    "directory": "/home/labex/project",
+    "command": "sys host "
+  },
+  {
+    "time": "2026-02-26 13:15:57",
+    "directory": "/home/labex/project",
+    "command": "sys host --h"
+  },
+  {
+    "time": "2026-02-26 13:16:18",
+    "directory": "/home/labex/project",
+    "command": "sys host --help"
+  },
+  {
+    "time": "2026-02-26 13:16:35",
+    "directory": "/home/labex/project",
+    "command": "sys disks "
+  },
+  {
+    "time": "2026-02-26 13:18:15",
+    "directory": "/home/labex/project",
+    "command": "sys disks --help"
+  },
+  {
+    "time": "2026-02-26 13:21:08",
+    "directory": "/home/labex/project",
+    "command": "sys disks | save devices.txt"
+  },
+  {
+    "time": "2026-02-26 13:21:16",
+    "directory": "/home/labex/project",
+    "command": "sys disks | table -e | save devices.txt"
+  },
+  {
+    "time": "2026-02-26 13:22:12",
+    "directory": "/home/labex/project",
+    "command": "open devices.txt"
+  },
+  {
+    "time": "2026-02-26 13:22:12",
+    "directory": "/home/labex/project",
+    "command": "sys disks --all"
+  },
+  {
+    "time": "2026-02-26 13:24:20",
+    "directory": "/home/labex/project",
+    "command": "sys disks --all"
+  },
+  {
+    "time": "2026-02-26 13:24:29",
+    "directory": "/home/labex/project",
+    "command": "bash lsblk"
+  },
+  {
+    "time": "2026-02-26 13:26:32",
+    "directory": "/home/labex/project",
+    "command": "^lsblk"
+  },
+  {
+    "time": "2026-02-26 13:27:22",
+    "directory": "/home/labex/project",
+    "command": "lsblk --j | from json "
+  },
+  {
+    "time": "2026-02-26 13:28:54",
+    "directory": "/home/labex/project",
+    "command": "lsblk --j | from json | get blockdevices"
+  },
+  {
+    "time": "2026-02-26 13:29:52",
+    "directory": "/home/labex/project",
+    "command": "lsblk --j | from json | to text |  get blockdevices | save disks.txt"
+  },
+  {
+    "time": "2026-02-26 13:30:01",
+    "directory": "/home/labex/project",
+    "command": "lsblk --json | from json | get blockdevices | table -e | save disks.txt"
+  },
+  {
+    "time": "2026-02-26 13:30:46",
+    "directory": "/home/labex/project",
+    "command": "open disks.txt"
+  },
+  {
+    "time": "2026-02-26 13:33:55",
+    "directory": "/home/labex/project",
+    "command": "sys disks"
+  },
+  {
+    "time": "2026-02-26 13:35:03",
+    "directory": "/home/labex/project",
+    "command": "lsblk --j | from json | get blockdevices | where type == \"disk\""
+  },
+  {
+    "time": "2026-02-26 13:35:16",
+    "directory": "/home/labex/project",
+    "command": "lsblk --json | from json | get blockdevices | table -e | save vda_disk.txt"
+  },
+  {
+    "time": "2026-02-26 13:35:43",
+    "directory": "/home/labex/project",
+    "command": "sys disks"
+  },
+  {
+    "time": "2026-02-26 13:35:57",
+    "directory": "/home/labex/project",
+    "command": "sys disks | table -e | save filesystems.txt"
+  },
+  {
+    "time": "2026-02-26 13:36:26",
+    "directory": "/home/labex/project",
+    "command": "open filesystems.txt"
+  },
+  {
+    "time": "2026-02-26 13:37:15",
+    "directory": "/home/labex/project",
+    "command": "lsblk -b"
+  },
+  {
+    "time": "2026-02-26 13:37:23",
+    "directory": "/home/labex/project",
+    "command": "lsblk -b | table -e | save sizes.txt"
+  },
+  {
+    "time": "2026-02-26 13:42:16",
+    "directory": "/home/labex/project",
+    "command": "open sizes.txt"
+  },
+  {
+    "time": "2026-02-26 13:42:30",
+    "directory": "/home/labex/project",
+    "command": "rec \"Disk Filesystems and Storage Management\" \"Learned to parse disks and vDisks info into structured Nushell tables\""
+  },
+  {
+    "time": "2026-02-26 13:42:59",
+    "directory": "/home/labex/project",
+    "command": "sync-skills"
+  },
+  {
+    "time": "2026-02-26 13:43:05",
+    "directory": "/home/labex/project",
+    "command": "git config --global user.email \"mklmkcmkt@outlook.com\"\n  git config --global user.name \"Lee\""
+  },
+  {
+    "time": "2026-02-26 13:43:10",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
+  },
+  {
+    "time": "2026-02-26 13:43:51",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
   }
 ]

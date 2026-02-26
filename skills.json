@@ -22,5 +22,11 @@
     "lab_directory": "/home/labex/project",
     "skill": "System Rescue And Initialization",
     "description": "add export env variable and alias to /.zshrc config file"
+  },
+  {
+    "date": "2026-02-26 13:42:16",
+    "lab_directory": "/home/labex/project",
+    "skill": "Disk Filesystems and Storage Management",
+    "description": "Learned to parse disks and vDisks info into structured Nushell tables"
   }
 ]
