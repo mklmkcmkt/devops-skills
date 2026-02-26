@@ -1,0 +1,72 @@
+[
+  {
+    "time": "2026-02-26 11:12:45",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-02-26 11:13:23",
+    "directory": "/home/labex/project",
+    "command": "exit"
+  },
+  {
+    "time": "2026-02-26 11:14:03",
+    "directory": "/home/labex/project",
+    "command": "ps | where cpu "
+  },
+  {
+    "time": "2026-02-26 11:14:35",
+    "directory": "/home/labex/project",
+    "command": "ps --help"
+  },
+  {
+    "time": "2026-02-26 11:14:45",
+    "directory": "/home/labex/project",
+    "command": "ps | sort-by cup --reverse"
+  },
+  {
+    "time": "2026-02-26 11:15:26",
+    "directory": "/home/labex/project",
+    "command": "ps | sort-by cpu --reverse"
+  },
+  {
+    "time": "2026-02-26 11:16:02",
+    "directory": "/home/labex/project",
+    "command": "sudo kill 195 "
+  },
+  {
+    "time": "2026-02-26 11:16:17",
+    "directory": "/home/labex/project",
+    "command": "sudo kill --force 195 "
+  },
+  {
+    "time": "2026-02-26 11:16:30",
+    "directory": "/home/labex/project",
+    "command": "sudo kill --help"
+  },
+  {
+    "time": "2026-02-26 11:17:00",
+    "directory": "/home/labex/project",
+    "command": "kill(1)"
+  },
+  {
+    "time": "2026-02-26 11:18:26",
+    "directory": "/home/labex/project",
+    "command": "kill --help"
+  },
+  {
+    "time": "2026-02-26 11:19:06",
+    "directory": "/home/labex/project",
+    "command": "open ~/devops-skills/raw_commands.json"
+  },
+  {
+    "time": "2026-02-26 11:19:23",
+    "directory": "/home/labex/project",
+    "command": "skills sync"
+  },
+  {
+    "time": "2026-02-26 11:25:26",
+    "directory": "/home/labex/project",
+    "command": "sync-skills"
+  }
+]
