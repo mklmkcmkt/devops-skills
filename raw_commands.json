@@ -523,5 +523,115 @@
     "time": "2026-02-27 11:58:01",
     "directory": "/home/labex",
     "command": "gh auth login"
+  },
+  {
+    "time": "2026-02-27 13:30:56",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-02-27 13:31:16",
+    "directory": "/home/labex/project",
+    "command": "open etc/fstab | detect columns "
+  },
+  {
+    "time": "2026-02-27 13:36:11",
+    "directory": "/home/labex/project",
+    "command": "open /etc/fstab | detect columns "
+  },
+  {
+    "time": "2026-02-27 13:36:58",
+    "directory": "/home/labex/project",
+    "command": "cat /etc/fstab"
+  },
+  {
+    "time": "2026-02-27 13:37:14",
+    "directory": "/home/labex/project",
+    "command": "bash -c \"cat /etc/fstab\""
+  },
+  {
+    "time": "2026-02-27 13:38:35",
+    "directory": "/home/labex/project",
+    "command": "bash -c \"cat /etc/fstab\""
+  },
+  {
+    "time": "2026-02-27 13:39:02",
+    "directory": "/home/labex/project",
+    "command": "sudo cp /etc/fstab/ /etc/fstab.bak"
+  },
+  {
+    "time": "2026-02-27 13:39:36",
+    "directory": "/home/labex/project",
+    "command": "sudo cp /etc/fstab /etc/fstab.bak"
+  },
+  {
+    "time": "2026-02-27 13:40:03",
+    "directory": "/home/labex/project",
+    "command": "sudo open /etc/fstab"
+  },
+  {
+    "time": "2026-02-27 13:40:40",
+    "directory": "/home/labex/project",
+    "command": "sudo nano /etc/fstab"
+  },
+  {
+    "time": "2026-02-27 13:42:12",
+    "directory": "/home/labex/project",
+    "command": "sudo nano /etc/fstab"
+  },
+  {
+    "time": "2026-02-27 13:45:57",
+    "directory": "/home/labex/project",
+    "command": "sudo nano /etc/fstab"
+  },
+  {
+    "time": "2026-02-27 13:49:29",
+    "directory": "/home/labex/project",
+    "command": "open /etc/fstab | lines | str trim | where not ($it | str starts-with \"#\") | where $it != \"\" | split column -r '\\s+' device mount type options dump pass"
+  },
+  {
+    "time": "2026-02-27 13:51:05",
+    "directory": "/home/labex/project",
+    "command": "sudo mount -a"
+  },
+  {
+    "time": "2026-02-27 13:54:59",
+    "directory": "/home/labex/project",
+    "command": "sys disks | find \"mountpoint\""
+  },
+  {
+    "time": "2026-02-27 13:55:45",
+    "directory": "/home/labex/project",
+    "command": "rec "
+  },
+  {
+    "time": "2026-02-27 13:55:58",
+    "directory": "/home/labex/project",
+    "command": "rec \"Persistent Mounts with fstab\" \"Map persistent disk images to folder paths in fstab\""
+  },
+  {
+    "time": "2026-02-27 13:56:07",
+    "directory": "/home/labex/project",
+    "command": "sync-skills"
+  },
+  {
+    "time": "2026-02-27 13:57:25",
+    "directory": "/home/labex/project",
+    "command": "gh auth login "
+  },
+  {
+    "time": "2026-02-27 13:59:11",
+    "directory": "/home/labex/project",
+    "command": "sync-skills"
+  },
+  {
+    "time": "2026-02-27 13:59:16",
+    "directory": "/home/labex/project",
+    "command": "git config --global user.email \"mklmkcmkt@outlook.com\"\ngit config --global user.name \"Lee\"\n"
+  },
+  {
+    "time": "2026-02-27 13:59:30",
+    "directory": "/home/labex/project",
+    "command": "gh auth login "
   }
 ]

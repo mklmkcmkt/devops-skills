@@ -34,5 +34,11 @@
     "lab_directory": "/home/labex",
     "skill": "Disk Filesystems and Storage Management",
     "description": "Mounting and Umounting Filesystems"
+  },
+  {
+    "date": "2026-02-27 13:55:45",
+    "lab_directory": "/home/labex/project",
+    "skill": "Persistent Mounts with fstab",
+    "description": "Map persistent disk images to folder paths in fstab"
   }
 ]
