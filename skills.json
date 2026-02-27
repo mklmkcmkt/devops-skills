@@ -46,5 +46,11 @@
     "lab_directory": "/home/labex/project",
     "skill": "Disk Filesystems and Storage Management",
     "description": "Learned disk space troubleshooting using find, du, and sort commands."
+  },
+  {
+    "date": "2026-02-28 05:52:09",
+    "lab_directory": "/home/labex/project/inode_lab",
+    "skill": "Disk Filesystems and Storage Management",
+    "description": "Understand inodes as filesystem metadata structures storing file ownership and permissions"
   }
 ]

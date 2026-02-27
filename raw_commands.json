@@ -708,5 +708,110 @@
     "time": "2026-02-27 15:58:17",
     "directory": "/home/labex/project",
     "command": "git config --global user.email \"mklmkcmkt@outlook.com\";\ngit config --global user.name \"Lee\"\n"
+  },
+  {
+    "time": "2026-02-28 05:42:00",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-02-28 05:42:11",
+    "directory": "/home/labex/project",
+    "command": "^df -i"
+  },
+  {
+    "time": "2026-02-28 05:42:49",
+    "directory": "/home/labex/project",
+    "command": "df -i"
+  },
+  {
+    "time": "2026-02-28 05:43:10",
+    "directory": "/home/labex/project",
+    "command": "df -i | detect columns "
+  },
+  {
+    "time": "2026-02-28 05:43:29",
+    "directory": "/home/labex/project",
+    "command": "df -i"
+  },
+  {
+    "time": "2026-02-28 05:44:29",
+    "directory": "/home/labex/project",
+    "command": "df -i | detect columns "
+  },
+  {
+    "time": "2026-02-28 05:44:38",
+    "directory": "/home/labex/project",
+    "command": "ls -i | detect columns | to text | sample_file.txt"
+  },
+  {
+    "time": "2026-02-28 05:44:51",
+    "directory": "/home/labex/project",
+    "command": "^ls -i | detect columns | to text | sample_file.txt"
+  },
+  {
+    "time": "2026-02-28 05:45:56",
+    "directory": "/home/labex/project",
+    "command": "^ls -i | detect columns | to text | save sample_file.txt"
+  },
+  {
+    "time": "2026-02-28 05:46:15",
+    "directory": "/home/labex/project",
+    "command": "^ls -i sample_file.txt"
+  },
+  {
+    "time": "2026-02-28 05:46:26",
+    "directory": "/home/labex/project",
+    "command": "cd ~/project/inode_lab\nls -i sample_file.txt"
+  },
+  {
+    "time": "2026-02-28 05:48:11",
+    "directory": "/home/labex/project/inode_lab",
+    "command": "cd ~/project/inode_lab\n^ls -i sample_file.txt"
+  },
+  {
+    "time": "2026-02-28 05:48:18",
+    "directory": "/home/labex/project/inode_lab",
+    "command": "\"\" | save empty_file "
+  },
+  {
+    "time": "2026-02-28 05:48:36",
+    "directory": "/home/labex/project/inode_lab",
+    "command": "open empty_file"
+  },
+  {
+    "time": "2026-02-28 05:49:13",
+    "directory": "/home/labex/project/inode_lab",
+    "command": "ls -l empty_file"
+  },
+  {
+    "time": "2026-02-28 05:49:20",
+    "directory": "/home/labex/project/inode_lab",
+    "command": "ls -i empty_file"
+  },
+  {
+    "time": "2026-02-28 05:52:09",
+    "directory": "/home/labex/project/inode_lab",
+    "command": "^ls -i empty_file"
+  },
+  {
+    "time": "2026-02-28 05:52:52",
+    "directory": "/home/labex/project/inode_lab",
+    "command": "rec \"Disk Filesystems and Storage Management\" \"Understand inodes as filesystem metadata structures storing file ownership and permissions\""
+  },
+  {
+    "time": "2026-02-28 05:53:08",
+    "directory": "/home/labex/project/inode_lab",
+    "command": "sync-skills "
+  },
+  {
+    "time": "2026-02-28 05:54:28",
+    "directory": "/home/labex/project/inode_lab",
+    "command": "gh auth login"
+  },
+  {
+    "time": "2026-02-28 05:54:34",
+    "directory": "/home/labex/project/inode_lab",
+    "command": "git config --global user.email \"mklmkcmkt@outlook.com\";\ngit config --global user.name \"Lee\"\n"
   }
 ]
