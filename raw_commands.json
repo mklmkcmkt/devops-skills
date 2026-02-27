@@ -633,5 +633,80 @@
     "time": "2026-02-27 13:59:30",
     "directory": "/home/labex/project",
     "command": "gh auth login "
+  },
+  {
+    "time": "2026-02-27 15:44:50",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-02-27 15:45:34",
+    "directory": "/home/labex/project",
+    "command": "ls **/* | where type == file and size > 100mb "
+  },
+  {
+    "time": "2026-02-27 15:47:25",
+    "directory": "/home/labex/project",
+    "command": "ls **/* | where type == file and size > 100mb | to text | save large_files.txt"
+  },
+  {
+    "time": "2026-02-27 15:48:55",
+    "directory": "/home/labex/project",
+    "command": "du /var/* | sort-by apparent --reverse "
+  },
+  {
+    "time": "2026-02-27 15:49:20",
+    "directory": "/home/labex/project",
+    "command": "sudo nu -c \"du /var/* | sort-by apparent --reverse\""
+  },
+  {
+    "time": "2026-02-27 15:51:46",
+    "directory": "/home/labex/project",
+    "command": "sudo nu -c \"du /var/* | sort-by apparent --reverse\""
+  },
+  {
+    "time": "2026-02-27 15:52:31",
+    "directory": "/home/labex/project",
+    "command": "sudo du /var/* | sort-by apparent --reverse | first 5 "
+  },
+  {
+    "time": "2026-02-27 15:54:00",
+    "directory": "/home/labex/project",
+    "command": "sudo du /var/* | Lines | sort-by apparent --reverse | first 5 "
+  },
+  {
+    "time": "2026-02-27 15:54:48",
+    "directory": "/home/labex/project",
+    "command": "sudo nu -c \"du /var/* | sort-by apparent --reverse | first 5\""
+  },
+  {
+    "time": "2026-02-27 15:55:32",
+    "directory": "/home/labex/project",
+    "command": "sudo nu -c \"du /var/* | sort-by apparent --reverse | first 5\" | save top_var_dirs.txt"
+  },
+  {
+    "time": "2026-02-27 15:56:36",
+    "directory": "/home/labex/project",
+    "command": "cat ~/project/top_var_dirs.txt"
+  },
+  {
+    "time": "2026-02-27 15:56:45",
+    "directory": "/home/labex/project",
+    "command": "rec \"Disk Filesystems and Storage Management\" \"Learned disk space troubleshooting using find, du, and sort commands.\""
+  },
+  {
+    "time": "2026-02-27 15:56:49",
+    "directory": "/home/labex/project",
+    "command": "git auth login "
+  },
+  {
+    "time": "2026-02-27 15:58:06",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
+  },
+  {
+    "time": "2026-02-27 15:58:17",
+    "directory": "/home/labex/project",
+    "command": "git config --global user.email \"mklmkcmkt@outlook.com\";\ngit config --global user.name \"Lee\"\n"
   }
 ]
