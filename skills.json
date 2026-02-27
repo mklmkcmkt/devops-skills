@@ -28,5 +28,11 @@
     "lab_directory": "/home/labex/project",
     "skill": "Disk Filesystems and Storage Management",
     "description": "Learned to parse disks and vDisks info into structured Nushell tables"
+  },
+  {
+    "date": "2026-02-27 11:55:44",
+    "lab_directory": "/home/labex",
+    "skill": "Disk Filesystems and Storage Management",
+    "description": "Mounting and Umounting Filesystems"
   }
 ]

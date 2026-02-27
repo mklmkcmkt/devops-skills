@@ -403,5 +403,125 @@
     "time": "2026-02-26 13:43:51",
     "directory": "/home/labex/project",
     "command": "gh auth login"
+  },
+  {
+    "time": "2026-02-27 11:44:54",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-02-27 11:45:08",
+    "directory": "/home/labex/project",
+    "command": "mkdir /mnt/data"
+  },
+  {
+    "time": "2026-02-27 11:45:19",
+    "directory": "/home/labex/project",
+    "command": "sudo mkdir /mnt/data"
+  },
+  {
+    "time": "2026-02-27 11:47:20",
+    "directory": "/home/labex/project",
+    "command": "ls -ld /mnt/data"
+  },
+  {
+    "time": "2026-02-27 11:47:34",
+    "directory": "/mnt/data",
+    "command": "cd /mnt/data"
+  },
+  {
+    "time": "2026-02-27 11:47:43",
+    "directory": "/mnt/data",
+    "command": "cd /project"
+  },
+  {
+    "time": "2026-02-27 11:47:46",
+    "directory": "/home/labex",
+    "command": "~"
+  },
+  {
+    "time": "2026-02-27 11:47:50",
+    "directory": "/home/labex",
+    "command": "cd /project"
+  },
+  {
+    "time": "2026-02-27 11:49:09",
+    "directory": "/home/labex/project",
+    "command": "cd project"
+  },
+  {
+    "time": "2026-02-27 11:49:59",
+    "directory": "/home/labex/project",
+    "command": "sys disks "
+  },
+  {
+    "time": "2026-02-27 11:50:27",
+    "directory": "/home/labex/project",
+    "command": "sudo mount -o loop /home/labex/disk.img /mnt/data"
+  },
+  {
+    "time": "2026-02-27 11:51:17",
+    "directory": "/home/labex/project",
+    "command": "sys disks | where mount == /mnt/data"
+  },
+  {
+    "time": "2026-02-27 11:52:06",
+    "directory": "/home/labex/project",
+    "command": "ls -l /mnt/data"
+  },
+  {
+    "time": "2026-02-27 11:52:18",
+    "directory": "/home/labex/project",
+    "command": "ls -l /mnt/data/lost+found"
+  },
+  {
+    "time": "2026-02-27 11:52:32",
+    "directory": "/home/labex/project",
+    "command": "sudo ls -l /mnt/data/lost+found"
+  },
+  {
+    "time": "2026-02-27 11:52:51",
+    "directory": "/home/labex/project",
+    "command": "sudo touch /mnt/data/hello.txt\nls -l /mnt/data"
+  },
+  {
+    "time": "2026-02-27 11:53:09",
+    "directory": "/home/labex",
+    "command": "cd ~"
+  },
+  {
+    "time": "2026-02-27 11:53:23",
+    "directory": "/home/labex",
+    "command": "sudo umount /mnt/data"
+  },
+  {
+    "time": "2026-02-27 11:54:24",
+    "directory": "/home/labex",
+    "command": "ls -l /mnt/data/"
+  },
+  {
+    "time": "2026-02-27 11:55:44",
+    "directory": "/home/labex",
+    "command": "open /home/labex/disk.img "
+  },
+  {
+    "time": "2026-02-27 11:55:57",
+    "directory": "/home/labex",
+    "command": "rec \"Disk Filesystems and Storage Management\" \"Mounting and Umounting Filesystems\""
+  },
+  {
+    "time": "2026-02-27 11:56:59",
+    "directory": "/home/labex",
+    "command": "sync-skills"
+  },
+  {
+    "time": "2026-02-27 11:57:06",
+    "directory": "/home/labex",
+    "command": "git config --global user.email \"mklmkcmkt@outlook.com\"; git config --global user.name \"Lee\""
+  },
+  {
+    "time": "2026-02-27 11:58:01",
+    "directory": "/home/labex",
+    "command": "gh auth login"
   }
 ]
