@@ -943,5 +943,135 @@
     "time": "2026-03-02 09:11:20",
     "directory": "/home/labex/project",
     "command": "gh auth login"
+  },
+  {
+    "time": "2026-03-03 04:29:11",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-03-03 04:29:33",
+    "directory": "/home/labex/project",
+    "command": "^sudo lvcreate -L 1G lv_logs vg_labex"
+  },
+  {
+    "time": "2026-03-03 04:30:31",
+    "directory": "/home/labex/project",
+    "command": "sudo lvcreate -L 1G -n lv_logs vg_labex"
+  },
+  {
+    "time": "2026-03-03 04:30:50",
+    "directory": "/home/labex/project",
+    "command": "sudo lvs"
+  },
+  {
+    "time": "2026-03-03 04:30:56",
+    "directory": "/home/labex/project",
+    "command": "sudo lvs | --json | from json "
+  },
+  {
+    "time": "2026-03-03 04:32:11",
+    "directory": "/home/labex/project",
+    "command": "sudo lvs | --json"
+  },
+  {
+    "time": "2026-03-03 04:32:28",
+    "directory": "/home/labex/project",
+    "command": "sudo mksf.ext4 /dev/vg_labex/lv_logs"
+  },
+  {
+    "time": "2026-03-03 04:35:18",
+    "directory": "/home/labex/project",
+    "command": "sudo mkfs.ext4 /dev/vg_labex/lv_logs"
+  },
+  {
+    "time": "2026-03-03 04:35:58",
+    "directory": "/home/labex/project",
+    "command": "ls -l"
+  },
+  {
+    "time": "2026-03-03 04:36:55",
+    "directory": "/home/labex/project",
+    "command": "^sudo blkid /dev/vg_labex/lv_logs"
+  },
+  {
+    "time": "2026-03-03 04:36:59",
+    "directory": "/home/labex/project",
+    "command": "sudo mkdir /mnt/logs"
+  },
+  {
+    "time": "2026-03-03 04:37:33",
+    "directory": "/home/labex/project",
+    "command": "ls -l"
+  },
+  {
+    "time": "2026-03-03 04:37:48",
+    "directory": "/home/labex/project",
+    "command": "ls /mnt/logs"
+  },
+  {
+    "time": "2026-03-03 04:37:51",
+    "directory": "/home/labex/project",
+    "command": "^sudo mount /dev/vg_labex/lv_logs /mnt/logs"
+  },
+  {
+    "time": "2026-03-03 04:38:28",
+    "directory": "/home/labex/project",
+    "command": "ls /mnt/logs"
+  },
+  {
+    "time": "2026-03-03 04:38:41",
+    "directory": "/home/labex/project",
+    "command": "df /mnt/logs"
+  },
+  {
+    "time": "2026-03-03 04:40:28",
+    "directory": "/home/labex/project",
+    "command": "df -h /mnt/logs"
+  },
+  {
+    "time": "2026-03-03 04:40:54",
+    "directory": "/home/labex/project",
+    "command": "^sudo lvextend -L +500M /dev/vg_labex/lv_logs"
+  },
+  {
+    "time": "2026-03-03 04:41:50",
+    "directory": "/home/labex/project",
+    "command": "df -h /mnt/logs"
+  },
+  {
+    "time": "2026-03-03 04:42:04",
+    "directory": "/home/labex/project",
+    "command": "sudo resize2fs /dev/vg_labex/lv_logs"
+  },
+  {
+    "time": "2026-03-03 04:46:45",
+    "directory": "/home/labex/project",
+    "command": "df -h /mnt/logs"
+  },
+  {
+    "time": "2026-03-03 04:47:49",
+    "directory": "/home/labex/project",
+    "command": "rec "
+  },
+  {
+    "time": "2026-03-03 04:48:17",
+    "directory": "/home/labex/project",
+    "command": "rec \"Disk Filesystems and Storage Management\" \"Learned LVM provisioning and filesystem formatting\""
+  },
+  {
+    "time": "2026-03-03 04:48:34",
+    "directory": "/home/labex/project",
+    "command": "sync-skills "
+  },
+  {
+    "time": "2026-03-03 04:48:45",
+    "directory": "/home/labex/project",
+    "command": "git config --global user.email \"mklmkcmkt@outlook.com\";\ngit config --global user.name \"Lee\"\n"
+  },
+  {
+    "time": "2026-03-03 04:49:51",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
   }
 ]
