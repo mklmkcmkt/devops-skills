@@ -52,5 +52,11 @@
     "lab_directory": "/home/labex/project/inode_lab",
     "skill": "Disk Filesystems and Storage Management",
     "description": "Understand inodes as filesystem metadata structures storing file ownership and permissions"
+  },
+  {
+    "date": "2026-03-02 09:09:01",
+    "lab_directory": "/home/labex/project",
+    "skill": "Disk Filesystems and Storage Management",
+    "description": "Created PV, VG and extracted LVM data as JSON to enable native Nushell filtering."
   }
 ]
