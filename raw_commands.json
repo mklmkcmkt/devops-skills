@@ -1198,5 +1198,85 @@
     "time": "2026-03-03 18:11:36",
     "directory": "/home/labex/project",
     "command": "rec \"Linux Networking Fundamentals\" \"learned to inspect hardware interfaces and IP addresses in Linux\""
+  },
+  {
+    "time": "2026-03-03 18:49:16",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-03-03 18:52:24",
+    "directory": "/home/labex/project",
+    "command": "ping -c 4 8.8.8.8"
+  },
+  {
+    "time": "2026-03-03 18:53:29",
+    "directory": "/home/labex/project",
+    "command": "ping -c 4 8.8.8.8"
+  },
+  {
+    "time": "2026-03-03 18:55:27",
+    "directory": "/home/labex/project",
+    "command": "ping -c 4 8.8.8.8"
+  },
+  {
+    "time": "2026-03-03 18:56:00",
+    "directory": "/home/labex/project",
+    "command": "^ip route | seletct default "
+  },
+  {
+    "time": "2026-03-03 18:56:45",
+    "directory": "/home/labex/project",
+    "command": "^ip route | lines | find \"default\""
+  },
+  {
+    "time": "2026-03-03 18:59:04",
+    "directory": "/home/labex/project",
+    "command": "ping -c 4 172.60.0.1"
+  },
+  {
+    "time": "2026-03-03 18:59:34",
+    "directory": "/home/labex/project",
+    "command": "ip route | grep default"
+  },
+  {
+    "time": "2026-03-03 18:59:43",
+    "directory": "/home/labex/project",
+    "command": "ping -c 172.60.0.1"
+  },
+  {
+    "time": "2026-03-03 19:00:01",
+    "directory": "/home/labex/project",
+    "command": "^ping -c 172.60.0.1"
+  },
+  {
+    "time": "2026-03-03 19:00:47",
+    "directory": "/home/labex/project",
+    "command": "^ping -c 4 172.60.0.1"
+  },
+  {
+    "time": "2026-03-03 19:16:12",
+    "directory": "/home/labex/project",
+    "command": "^ping -c 4 172.60.0.1"
+  },
+  {
+    "time": "2026-03-03 19:16:29",
+    "directory": "/home/labex/project",
+    "command": "rec \"Linux Networking Fundamentals\" \"Learned how to verify connection to www and connection to local router\" "
+  },
+  {
+    "time": "2026-03-03 19:16:48",
+    "directory": "/home/labex/project",
+    "command": "git config --global user.email \"mklmkcmkt@outlook.com\";\ngit config --global user.name \"Lee\"\n"
+  },
+  {
+    "time": "2026-03-03 19:16:53",
+    "directory": "/home/labex/project",
+    "command": "gh auht login"
+  },
+  {
+    "time": "2026-03-03 19:17:37",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
   }
 ]

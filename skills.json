@@ -70,5 +70,11 @@
     "lab_directory": "/home/labex/project",
     "skill": "Linux Networking Fundamentals",
     "description": "learned to inspect hardware interfaces and IP addresses in Linux"
+  },
+  {
+    "date": "2026-03-03 19:16:12",
+    "lab_directory": "/home/labex/project",
+    "skill": "Linux Networking Fundamentals",
+    "description": "Learned how to verify connection to www and connection to local router"
   }
 ]
