@@ -1353,5 +1353,70 @@
     "time": "2026-03-04 10:49:25",
     "directory": "/home/labex/project",
     "command": "rec \"Linux Networking Fundamentals\" \"Learned to parse raw socket statistics into structured Nushell data tables\""
+  },
+  {
+    "time": "2026-03-04 12:11:08",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-03-04 12:11:14",
+    "directory": "/home/labex/project",
+    "command": "git config --global user.email \"mklmkcmkt@outlook.com\";\ngit config --global user.name \"Lee\"\n"
+  },
+  {
+    "time": "2026-03-04 12:12:19",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
+  },
+  {
+    "time": "2026-03-04 12:13:14",
+    "directory": "/home/labex/project",
+    "command": "http get http://localhost:8080/hello.txt"
+  },
+  {
+    "time": "2026-03-04 12:14:30",
+    "directory": "/home/labex/project",
+    "command": "http head http://localhost:8080/hello.txt"
+  },
+  {
+    "time": "2026-03-04 12:17:13",
+    "directory": "/home/labex/project",
+    "command": "http head http://localhost:8080/hello.txt | get status"
+  },
+  {
+    "time": "2026-03-04 12:17:53",
+    "directory": "/home/labex/project",
+    "command": "http get --full http://localhost:8080/hello.txt | get status"
+  },
+  {
+    "time": "2026-03-04 12:18:54",
+    "directory": "/home/labex/project",
+    "command": "curl -I http://localhost:8080/hello.txt"
+  },
+  {
+    "time": "2026-03-04 12:19:55",
+    "directory": "/home/labex/project",
+    "command": "http head --full http://localhost:8080/hello.txt | get status"
+  },
+  {
+    "time": "2026-03-04 12:20:29",
+    "directory": "/home/labex/project",
+    "command": "http head http://localhost:8080/hello.txt"
+  },
+  {
+    "time": "2026-03-04 12:21:25",
+    "directory": "/home/labex/project",
+    "command": "http get --full http://localhost:8080/hello.txt"
+  },
+  {
+    "time": "2026-03-04 12:26:09",
+    "directory": "/home/labex/project",
+    "command": "http get --full http://localhost:8080/hello.txt"
+  },
+  {
+    "time": "2026-03-04 12:26:18",
+    "directory": "/home/labex/project",
+    "command": "rec \"Linux Networking Fundamentals\" \"Used http get --full to download files as structured data and response status codes\""
   }
 ]
