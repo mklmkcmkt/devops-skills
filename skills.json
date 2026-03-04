@@ -88,5 +88,11 @@
     "lab_directory": "/home/labex/project",
     "skill": "Linux Networking Fundamentals",
     "description": "Used http get --full to download files as structured data and response status codes"
+  },
+  {
+    "date": "2026-03-04 13:05:53",
+    "lab_directory": "/home/labex/project",
+    "skill": "Linux Networking Fundamentals",
+    "description": "Created, deleted updated IP configuration to properly parse nested tables."
   }
 ]
