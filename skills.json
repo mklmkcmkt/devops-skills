@@ -94,5 +94,11 @@
     "lab_directory": "/home/labex/project",
     "skill": "Linux Networking Fundamentals",
     "description": "Created, deleted updated IP configuration to properly parse nested tables."
+  },
+  {
+    "date": "2026-03-05 13:01:13",
+    "lab_directory": "/home/labex/project",
+    "skill": "Remote Access and Secure File Transfer",
+    "description": "Connecting via SSH"
   }
 ]

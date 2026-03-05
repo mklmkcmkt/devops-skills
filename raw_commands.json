@@ -1498,5 +1498,70 @@
     "time": "2026-03-04 13:06:01",
     "directory": "/home/labex/project",
     "command": "rec \"Linux Networking Fundamentals\" \"Created, deleted updated IP configuration to properly parse nested tables.\""
+  },
+  {
+    "time": "2026-03-05 12:31:41",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-03-05 12:36:30",
+    "directory": "/home/labex/project",
+    "command": "whoami"
+  },
+  {
+    "time": "2026-03-05 12:40:43",
+    "directory": "/home/labex/project",
+    "command": "let ssh_dir = (\"~\" | path expand | path join \".ssh\")"
+  },
+  {
+    "time": "2026-03-05 12:41:16",
+    "directory": "/home/labex/project",
+    "command": "let pub_key = ($ssh_dir | path join \"id_rsa.pub\") "
+  },
+  {
+    "time": "2026-03-05 12:55:08",
+    "directory": "/home/labex/project",
+    "command": "if ($pub_key | path exists) {\n    print $\"Success! Your public key is ready at ($pub_key).\"\n    # You could pipe it directly here: open $pub_key\n} else {\n    print \"No public key found. You need to run ^ssh-keygen first!\"\n}"
+  },
+  {
+    "time": "2026-03-05 12:56:38",
+    "directory": "/home/labex/project",
+    "command": "ls $ssh_dir | where name =~ \"id_rsa\" | select name type size modified"
+  },
+  {
+    "time": "2026-03-05 12:56:50",
+    "directory": "/home/labex/project",
+    "command": "^ssh-keygen -t rsa -b 2048"
+  },
+  {
+    "time": "2026-03-05 13:01:13",
+    "directory": "/home/labex/project",
+    "command": "ls $ssh_dir | where name =~ \"id_rsa\" | select name type size modified"
+  },
+  {
+    "time": "2026-03-05 13:01:20",
+    "directory": "/home/labex/project",
+    "command": "rec \"Remote Access and Secure File Transfer\" \"Connecting via SSH\""
+  },
+  {
+    "time": "2026-03-05 13:01:34",
+    "directory": "/home/labex/project",
+    "command": "sync-skills "
+  },
+  {
+    "time": "2026-03-05 13:01:56",
+    "directory": "/home/labex/project",
+    "command": "git config --global user.email \"mklmkcmkt@outlook.com\";\ngit config --global user.name \"Lee\"\n"
+  },
+  {
+    "time": "2026-03-05 13:03:02",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
+  },
+  {
+    "time": "2026-03-05 13:03:53",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
   }
 ]
