@@ -100,5 +100,11 @@
     "lab_directory": "/home/labex/project",
     "skill": "Remote Access and Secure File Transfer",
     "description": "Connecting via SSH"
+  },
+  {
+    "date": "2026-03-06 13:53:25",
+    "lab_directory": "/home/labex/project",
+    "skill": "Remote Access and Secure File Transfer",
+    "description": "Secure File Copy with SCP and RSYNC"
   }
 ]

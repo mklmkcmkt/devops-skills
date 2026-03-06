@@ -1563,5 +1563,175 @@
     "time": "2026-03-05 13:03:53",
     "directory": "/home/labex/project",
     "command": "gh auth login"
+  },
+  {
+    "time": "2026-03-06 13:15:48",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-03-06 13:15:52",
+    "directory": "/home/labex/project",
+    "command": "git config --global user.email \"mklmkcmkt@outlook.com\";\ngit config --global user.name \"Lee\"\n"
+  },
+  {
+    "time": "2026-03-06 13:19:10",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
+  },
+  {
+    "time": "2026-03-06 13:19:17",
+    "directory": "/home/labex/project",
+    "command": "\"This is a package delivered by SCP.\" | save upload.txt"
+  },
+  {
+    "time": "2026-03-06 13:23:18",
+    "directory": "/home/labex/project",
+    "command": "ls upload.txt"
+  },
+  {
+    "time": "2026-03-06 13:24:22",
+    "directory": "/home/labex/project",
+    "command": "^scp upload.txt labuser@localhost:/tmp/"
+  },
+  {
+    "time": "2026-03-06 13:24:44",
+    "directory": "/home/labex/project",
+    "command": "^ssh labuser@localhost ls /tmp/upload.txt "
+  },
+  {
+    "time": "2026-03-06 13:28:39",
+    "directory": "/home/labex/project",
+    "command": "^ssh labuser@localhost ls /tmp/upload.txt"
+  },
+  {
+    "time": "2026-03-06 13:34:27",
+    "directory": "/home/labex/project",
+    "command": "# This only works if the remote user's shell is also nu\n\"Secret Server Config\" | ^ssh labuser@localhost 'save /tmp/remote_config.txt'\n"
+  },
+  {
+    "time": "2026-03-06 13:34:38",
+    "directory": "/home/labex/project",
+    "command": "\"Secret Server Config\" | ^ssh labuser@localhost 'cat > /tmp/remote_config.txt'\n\n^ssh labuser@localhost ^cat /tmp/remote_config.txt\n"
+  },
+  {
+    "time": "2026-03-06 13:35:11",
+    "directory": "/home/labex/project",
+    "command": "\"Secret Server Config\" | ^ssh labuser@localhost 'cat > /tmp/remote_config.txt'\n\n^ssh labuser@localhost cat /tmp/remote_config.txt\n"
+  },
+  {
+    "time": "2026-03-06 13:35:36",
+    "directory": "/home/labex/project",
+    "command": "^scp labuser@localhost:/tmp/remote_config.txt .\n"
+  },
+  {
+    "time": "2026-03-06 13:35:51",
+    "directory": "/home/labex/project",
+    "command": "open remote_config.txt"
+  },
+  {
+    "time": "2026-03-06 13:36:07",
+    "directory": "/home/labex/project",
+    "command": "open remote_config.txt\n"
+  },
+  {
+    "time": "2026-03-06 13:36:14",
+    "directory": "/home/labex/project",
+    "command": "mkdir my_website\n"
+  },
+  {
+    "time": "2026-03-06 13:38:15",
+    "directory": "/home/labex/project/my_website",
+    "command": "cd my_website"
+  },
+  {
+    "time": "2026-03-06 13:38:34",
+    "directory": "/home/labex/project/my_website",
+    "command": "[\"index.html\", \"style.css\"] | each { |filename|\n    touch (\"my_website\" | path join $filename)\n}"
+  },
+  {
+    "time": "2026-03-06 13:39:10",
+    "directory": "/home/labex/project/my_website",
+    "command": "[\"index.html\", \"style.css\"] | each { |filename|\n    touch (\"my_website\" | path join $filename)\n}"
+  },
+  {
+    "time": "2026-03-06 13:41:35",
+    "directory": "/home/labex/project/my_website",
+    "command": "[\"index.html\", \"style.css\"] | each { |it|\n    touch (\"my_website\" | path join $it)\n}"
+  },
+  {
+    "time": "2026-03-06 13:41:52",
+    "directory": "/home/labex/project/my_website",
+    "command": "[\"index.html\", \"style.css\"] | each { |filename| touch $filename } "
+  },
+  {
+    "time": "2026-03-06 13:42:28",
+    "directory": "/home/labex/project/my_website",
+    "command": "ls "
+  },
+  {
+    "time": "2026-03-06 13:42:31",
+    "directory": "/home/labex/project/my_website",
+    "command": "[\"index.html\", \"style.css\"] | each { |asset| touch $asset } "
+  },
+  {
+    "time": "2026-03-06 13:44:03",
+    "directory": "/home/labex/project/my_website",
+    "command": "ls "
+  },
+  {
+    "time": "2026-03-06 13:44:42",
+    "directory": "/home/labex/project/my_website",
+    "command": "^rsync -avz my_website/ labuser@localhost:/tmp/my_website_backup/\n"
+  },
+  {
+    "time": "2026-03-06 13:44:45",
+    "directory": "/home/labex/project",
+    "command": ".."
+  },
+  {
+    "time": "2026-03-06 13:45:39",
+    "directory": "/home/labex/project",
+    "command": "^rsync -avz my_website/ labuser@localhost:/tmp/my_website_backup/\n"
+  },
+  {
+    "time": "2026-03-06 13:45:50",
+    "directory": "/home/labex/project",
+    "command": "nano /my_website/index.html"
+  },
+  {
+    "time": "2026-03-06 13:45:52",
+    "directory": "/home/labex/project/my_website",
+    "command": "cd my_website"
+  },
+  {
+    "time": "2026-03-06 13:46:05",
+    "directory": "/home/labex/project/my_website",
+    "command": "ls"
+  },
+  {
+    "time": "2026-03-06 13:47:31",
+    "directory": "/home/labex/project/my_website",
+    "command": "nano index.html"
+  },
+  {
+    "time": "2026-03-06 13:49:39",
+    "directory": "/home/labex/project/my_website",
+    "command": "cat index.html"
+  },
+  {
+    "time": "2026-03-06 13:50:56",
+    "directory": "/home/labex/project",
+    "command": "# Make sure you are in the correct directory\ncd ~/project\n\n# Run the sync command again\n^rsync -avz my_website/ labuser@localhost:/tmp/my_website_backup/\n"
+  },
+  {
+    "time": "2026-03-06 13:53:25",
+    "directory": "/home/labex/project",
+    "command": "^ssh labuser@localhost cat /tmp/my_website_backup/index.html\n"
+  },
+  {
+    "time": "2026-03-06 13:53:36",
+    "directory": "/home/labex/project",
+    "command": "rec \"Remote Access and Secure File Transfer\" \"Secure File Copy with SCP and RSYNC\""
   }
 ]
