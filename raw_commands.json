@@ -1733,5 +1733,75 @@
     "time": "2026-03-06 13:53:36",
     "directory": "/home/labex/project",
     "command": "rec \"Remote Access and Secure File Transfer\" \"Secure File Copy with SCP and RSYNC\""
+  },
+  {
+    "time": "2026-03-07 09:40:00",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-03-07 09:40:21",
+    "directory": "/home/labex/project",
+    "command": "enter labuser@localhost"
+  },
+  {
+    "time": "2026-03-07 09:43:32",
+    "directory": "/home/labex/project",
+    "command": "enter sftp://labuser@localhost\n"
+  },
+  {
+    "time": "2026-03-07 09:46:57",
+    "directory": "/home/labex/project",
+    "command": "^sftp labuser@localhost"
+  },
+  {
+    "time": "2026-03-07 09:49:31",
+    "directory": "/home/labex/project",
+    "command": "# Create a mount point\nmkdir ~/remote_server\n\n# Mount it using sshfs (an external tool you'll need installed on Linux)\n^sshfs labuser@localhost:/ ~/remote_server"
+  },
+  {
+    "time": "2026-03-07 09:51:20",
+    "directory": "/home/labex/project",
+    "command": "exit"
+  },
+  {
+    "time": "2026-03-07 09:52:42",
+    "directory": "/home/labex/project",
+    "command": "^sshfs labuser@localhost:/home/labuser ~/remote_server"
+  },
+  {
+    "time": "2026-03-07 09:54:18",
+    "directory": "/home/labex/project",
+    "command": "\"lcd /tmp\nput local_file.txt\nget remote_file.txt\nbye\n\" | ^sftp labuser@localhost"
+  },
+  {
+    "time": "2026-03-07 09:54:35",
+    "directory": "/home/labex/project",
+    "command": "lcd /tmp"
+  },
+  {
+    "time": "2026-03-07 09:54:59",
+    "directory": "/home/labex/project",
+    "command": "ls"
+  },
+  {
+    "time": "2026-03-07 09:55:18",
+    "directory": "/home/labex/project",
+    "command": "get remote_file.txt"
+  },
+  {
+    "time": "2026-03-07 09:58:00",
+    "directory": "/home/labex/project",
+    "command": "sftp labuser@localhost"
+  },
+  {
+    "time": "2026-03-07 10:03:08",
+    "directory": "/home/labex/project",
+    "command": "ls /tmp/remote_file.txt"
+  },
+  {
+    "time": "2026-03-07 10:03:17",
+    "directory": "/home/labex/project",
+    "command": "rec \"Remote Access and Secure File Transfer\" \"connect to remote servers and navigate directories using sftp shell\""
   }
 ]
