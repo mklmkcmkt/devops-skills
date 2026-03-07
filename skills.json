@@ -112,5 +112,11 @@
     "lab_directory": "/home/labex/project",
     "skill": "Remote Access and Secure File Transfer",
     "description": "connect to remote servers and navigate directories using sftp shell"
+  },
+  {
+    "date": "2026-03-07 10:18:33",
+    "lab_directory": "/home/labex/project",
+    "skill": "Remote Access and Secure File Transfer",
+    "description": "connect to remote servers and navigate directories using sftp shell"
   }
 ]
