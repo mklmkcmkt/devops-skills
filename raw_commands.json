@@ -2038,5 +2038,100 @@
     "time": "2026-03-08 11:01:26",
     "directory": "/home/labex/project",
     "command": "gh auth login"
+  },
+  {
+    "time": "2026-03-08 15:23:44",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-03-08 15:24:03",
+    "directory": "/home/labex/project",
+    "command": "apt search | lines"
+  },
+  {
+    "time": "2026-03-08 15:25:20",
+    "directory": "/home/labex/project",
+    "command": "apt search nginx | lines"
+  },
+  {
+    "time": "2026-03-08 15:35:18",
+    "directory": "/home/labex/project",
+    "command": "apt search nginx | lines | where {|line| $line starts-with 'nginx/'}"
+  },
+  {
+    "time": "2026-03-08 15:35:56",
+    "directory": "/home/labex/project",
+    "command": "apt show nginx"
+  },
+  {
+    "time": "2026-03-08 15:36:11",
+    "directory": "/home/labex/project",
+    "command": "apt show nginx | parse \"{key} : {value}\""
+  },
+  {
+    "time": "2026-03-08 15:36:48",
+    "directory": "/home/labex/project",
+    "command": "apt show nginx | parse \"{key}:{value}\""
+  },
+  {
+    "time": "2026-03-08 15:37:43",
+    "directory": "/home/labex/project",
+    "command": "apt show nginx | parse \"{key}:{value}\".Depends"
+  },
+  {
+    "time": "2026-03-08 15:37:52",
+    "directory": "/home/labex/project",
+    "command": "(apt show nginx | parse \"{key}:{value}\") . Depends"
+  },
+  {
+    "time": "2026-03-08 15:38:19",
+    "directory": "/home/labex/project",
+    "command": "(apt show nginx | parse \"{key}:{value}\").Depends"
+  },
+  {
+    "time": "2026-03-08 15:38:37",
+    "directory": "/home/labex/project",
+    "command": "(apt show nginx | parse \"{key}:{value}\").Key.Depends"
+  },
+  {
+    "time": "2026-03-08 15:39:38",
+    "directory": "/home/labex/project",
+    "command": "(apt show nginx | parse \"{key}: {value}\").Version\n"
+  },
+  {
+    "time": "2026-03-08 15:40:36",
+    "directory": "/home/labex/project",
+    "command": "# A simpler, grep-like approach in Nu\napt show nginx | lines | where {|it| $it starts-with \"Version:\"} | split column \":\" | get column2 | str trim\n"
+  },
+  {
+    "time": "2026-03-08 15:40:52",
+    "directory": "/home/labex/project",
+    "command": "# Parse the output and save it as a JSON file\napt show nginx | parse \"{key}: {value}\" | save nginx_details.json\n"
+  },
+  {
+    "time": "2026-03-08 15:41:12",
+    "directory": "/home/labex/project",
+    "command": "open nginx_details.json"
+  },
+  {
+    "time": "2026-03-08 15:42:13",
+    "directory": "/home/labex/project",
+    "command": "# Open the structured data and get the 'Version' field\nopen nginx_details.json | get Version\n"
+  },
+  {
+    "time": "2026-03-08 15:42:41",
+    "directory": "/home/labex/project",
+    "command": "open nginx_details.json | where key == \"Version\" | get value\n"
+  },
+  {
+    "time": "2026-03-08 15:47:55",
+    "directory": "/home/labex/project",
+    "command": "open nginx_details.json | where key == \"Version\" | get value\n"
+  },
+  {
+    "time": "2026-03-08 15:48:08",
+    "directory": "/home/labex/project",
+    "command": "rec \"Linux Software Package Management\" \"understanding the *shape* of the data (list of pairs vs. single record) to apply the correct Nushell commands for querying and manipulation\" "
   }
 ]
