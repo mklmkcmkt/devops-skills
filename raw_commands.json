@@ -2133,5 +2133,15 @@
     "time": "2026-03-08 15:48:08",
     "directory": "/home/labex/project",
     "command": "rec \"Linux Software Package Management\" \"understanding the *shape* of the data (list of pairs vs. single record) to apply the correct Nushell commands for querying and manipulation\" "
+  },
+  {
+    "time": "2026-03-08 15:48:17",
+    "directory": "/home/labex/project",
+    "command": "sync-skills "
+  },
+  {
+    "time": "2026-03-08 15:49:04",
+    "directory": "/home/labex/project",
+    "command": "gh auth login"
   }
 ]
