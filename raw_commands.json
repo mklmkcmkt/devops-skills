@@ -1868,5 +1868,160 @@
     "time": "2026-03-07 10:18:40",
     "directory": "/home/labex/project",
     "command": "rec \"Remote Access and Secure File Transfer\" \"connect to remote servers and navigate directories using sftp shell\""
+  },
+  {
+    "time": "2026-03-08 10:27:51",
+    "directory": "/home/labex/project",
+    "command": "startup"
+  },
+  {
+    "time": "2026-03-08 10:28:07",
+    "directory": "/home/labex/project",
+    "command": "ping -c 6 127.0.0.1 | save ~/project/ping_result.txt"
+  },
+  {
+    "time": "2026-03-08 10:29:48",
+    "directory": "/home/labex/project",
+    "command": "open ping_result.txt"
+  },
+  {
+    "time": "2026-03-08 10:31:06",
+    "directory": "/home/labex/project",
+    "command": "do { curl 127.0.0.1:80 } | complete | save ~/project/port_check.txt\n"
+  },
+  {
+    "time": "2026-03-08 10:31:16",
+    "directory": "/home/labex/project",
+    "command": "do { curl 127.0.0.1:80 } | complete | to json | save ~/project/port_check.json\n"
+  },
+  {
+    "time": "2026-03-08 10:32:40",
+    "directory": "/home/labex/project",
+    "command": "open port_check.json"
+  },
+  {
+    "time": "2026-03-08 10:33:15",
+    "directory": "/home/labex/project",
+    "command": "do { curl 127.0.0.1:80 } | complete | to json | save ~/project/port_check.json | get exit_code\n"
+  },
+  {
+    "time": "2026-03-08 10:33:26",
+    "directory": "/home/labex/project",
+    "command": "open port_check.json | get exit_error"
+  },
+  {
+    "time": "2026-03-08 10:35:53",
+    "directory": "/home/labex/project",
+    "command": "open port_check.json | get exit_code"
+  },
+  {
+    "time": "2026-03-08 10:36:07",
+    "directory": "/home/labex/project",
+    "command": "^curl 127.0.0.1 | complete | save ~/project/port_check_2.json\n"
+  },
+  {
+    "time": "2026-03-08 10:36:25",
+    "directory": "/home/labex/project",
+    "command": "open port_check_2.json"
+  },
+  {
+    "time": "2026-03-08 10:37:56",
+    "directory": "/home/labex/project",
+    "command": "rm port_check_2.json"
+  },
+  {
+    "time": "2026-03-08 10:38:54",
+    "directory": "/home/labex/project",
+    "command": "ip-info | save ~/project/ip_config.txt"
+  },
+  {
+    "time": "2026-03-08 10:39:18",
+    "directory": "/home/labex/project",
+    "command": "ip -j addr | from json | save ~/project/ip_config.txt\n"
+  },
+  {
+    "time": "2026-03-08 10:40:16",
+    "directory": "/home/labex/project",
+    "command": "ip addr | from json | save ~/project/ip_config.txt\n"
+  },
+  {
+    "time": "2026-03-08 10:40:30",
+    "directory": "/home/labex/project",
+    "command": "ip -j addr | from json | to text | save ~/project/ip_config.txt\n"
+  },
+  {
+    "time": "2026-03-08 10:40:44",
+    "directory": "/home/labex/project",
+    "command": "ope ip_config.txt"
+  },
+  {
+    "time": "2026-03-08 10:40:57",
+    "directory": "/home/labex/project",
+    "command": "open ip_config.txt"
+  },
+  {
+    "time": "2026-03-08 10:42:09",
+    "directory": "/home/labex/project",
+    "command": "ip "
+  },
+  {
+    "time": "2026-03-08 10:43:11",
+    "directory": "/home/labex/project",
+    "command": "ip --help"
+  },
+  {
+    "time": "2026-03-08 10:44:30",
+    "directory": "/home/labex/project",
+    "command": "ip -j addr | from json\n"
+  },
+  {
+    "time": "2026-03-08 10:44:36",
+    "directory": "/home/labex/project",
+    "command": "sys net "
+  },
+  {
+    "time": "2026-03-08 10:45:18",
+    "directory": "/home/labex/project",
+    "command": "sys net | flatten ip"
+  },
+  {
+    "time": "2026-03-08 10:47:57",
+    "directory": "/home/labex/project",
+    "command": "ip addr "
+  },
+  {
+    "time": "2026-03-08 10:48:05",
+    "directory": "/home/labex/project",
+    "command": "^ip addr | lines | find \"inet \""
+  },
+  {
+    "time": "2026-03-08 10:51:19",
+    "directory": "/home/labex/project",
+    "command": "^ip addr | lines"
+  },
+  {
+    "time": "2026-03-08 10:55:46",
+    "directory": "/home/labex/project",
+    "command": "^ip -j addr | from json"
+  },
+  {
+    "time": "2026-03-08 10:56:36",
+    "directory": "/home/labex/project",
+    "command": "open port_check.json"
+  },
+  {
+    "time": "2026-03-08 10:57:11",
+    "directory": "/home/labex/project",
+    "command": "\"SERVICE\" | save ~/project/cause.txt\n"
+  },
+  {
+    "time": "2026-03-08 11:00:08",
+    "directory": "/home/labex/project",
+    "command": "open cause.txt"
+  },
+  {
+    "time": "2026-03-08 11:00:25",
+    "directory": "/home/labex/project",
+    "command": "rec \"Linux Networking Fundamentals\" \"Based on a successful `ping` (Network OK) and a failed `curl` (Port Closed), the root cause is identified as a \"SERVICE\" issue.\""
   }
 ]

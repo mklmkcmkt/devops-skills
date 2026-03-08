@@ -118,5 +118,11 @@
     "lab_directory": "/home/labex/project",
     "skill": "Remote Access and Secure File Transfer",
     "description": "connect to remote servers and navigate directories using sftp shell"
+  },
+  {
+    "date": "2026-03-08 11:00:08",
+    "lab_directory": "/home/labex/project",
+    "skill": "Linux Networking Fundamentals",
+    "description": "Based on a successful `ping` (Network OK) and a failed `curl` (Port Closed), the root cause is identified as a \"SERVICE\" issue."
   }
 ]
