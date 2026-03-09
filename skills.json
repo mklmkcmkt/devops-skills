@@ -130,5 +130,11 @@
     "lab_directory": "/home/labex/project",
     "skill": "Linux Software Package Management",
     "description": "understanding the *shape* of the data (list of pairs vs. single record) to apply the correct Nushell commands for querying and manipulation"
+  },
+  {
+    "date": "2026-03-09 20:18:22",
+    "lab_directory": "/home/labex/project",
+    "skill": "Service Management with systemd",
+    "description": "Ran commands to control Apache and filter processes using structured data."
   }
 ]
